@@ -86,7 +86,8 @@ npm run deploy
 
 ## Live link
 
-[Base url: ] (https://backend.sanjaym2202.workers.dev/api/v1/)
+[Base url: ] (https://bitespeed-backend.sanjaym2202.workers.dev)
+[Identify endpoint: ] (https://bitespeed-backend.sanjaym2202.workers.dev/api/v1/identify)
 
 ## License
 

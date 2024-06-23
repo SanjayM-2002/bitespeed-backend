@@ -10,6 +10,10 @@ const app = new Hono<{
   };
 }>();
 app.use('/*', cors());
+app.get('/', (c) => {
+  return c.json({ message: 'Hi there' });
+});
+
 app.route('/api/v1', contactRouter);
 
 export default app;
